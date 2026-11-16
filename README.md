@@ -2,7 +2,7 @@
 
 Prioritizing candidate immune genes in rice (chitin-triggered immunity) with positive-unlabeled learning on sequence-derived features, followed by co-expression network validation.
 
-**My contribution:** I was the sole author. I designed and implemented the full analysis: RNA-seq processing and DESeq2, feature engineering, PU bagging, evaluation, network analysis and figures (M.Tech thesis, Pondicherry University, supervised by Dr. P.T.V. Lakshmi).
+**My contribution:** This is my M.Tech thesis project (Pondicherry University, supervised by Dr. P.T.V. Lakshmi) and I am the only contributor to this repository. I designed the analysis, chose the features and the PU-learning approach, ran and debugged every step, and interpreted the results. I used AI coding assistants to help write parts of the code; the analysis decisions, checks and conclusions are mine.
 
 ## Method in brief
 1. **Positives:** 394 DEGs (DESeq2, PRJNA1062417). Everything else is *unlabeled*, not negative.
